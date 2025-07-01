@@ -1,3 +1,2 @@
-The publication should be cited using the doi linking to zenodo resulting in the following citation:
-
-TODO add example citation
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15784979.svg)](https://doi.org/10.5281/zenodo.15784979)
+The publication should be cited using the doi of the main paper, which will link to the artifacts in this repository.
