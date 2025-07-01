@@ -19,11 +19,13 @@ The subfolders contain the following information:
 
 ## Use case
 
-Run the verification of the use case properties using the following command.
+Run the verification of the use case properties using the following command from this directory.
 ```bash
 cd broker/use-case
 maude run-use-case.maude
 ```
+
+It will verify multiple properties, including properties 1 & 2 described in the paper.
 
 <details>
   <summary>Click to see output</summary>
