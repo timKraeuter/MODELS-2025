@@ -1,47 +1,10 @@
-# Detailed comparison with to other approaches (preliminary work of the authors)
-
-To show how our work (classified as coordination framework) differs from existing approaches such as ADLs, coordination languages, and co-simulation approaches, we created the following overview:
-
-![Coordination overview](./coordination-overview.svg)
-
-We can see in the overview that shows the abstraction levels that most approaches operate on the model or execution level, while our approach operates on the language level.
-Our approach operates on the language level to coordinate **heterogeneous** systems. For example, approaches on the model level require that each part of a system must be given in the chosen modeling language.
-For example, ADLs often use process algebras, which would require translating the models in our example into the chosen process algebra.
-
-## Feature model
-The following image shows a feature model to compare coordination approaches, such as ADLs, coordination languages, coordination frameworks (like this publication) and even co-simulation approaches.
-Especially, the component languages part in the bottom right shows the differentiation between homogeneous/heterogeneous. For example, ADLs have homogeneous components, while our approach allows heterogeneous modeling languages.
-![Featuer model to compare coordination approaches](./feature-model.svg)
-
-The feature model is currently unpublished, so we did not explain all details or describe our methodology.
-
-# Maude Implementation
+# Artifacts: Maude Implementation
 
 The implementation of our approach in Maude and its application to the use case is described in these artifacts.
 
-## Prerequisites
+## Requirements
 
-1. **Install Maude** 3.5 or higher according to the [installation instructions](https://maude.cs.illinois.edu/wiki/Maude_download_and_installation).
-   To run Maude on Windows, we recommend the [Windows Subsystem for Linux (WSL)](https://learn.microsoft.com/en-us/windows/wsl/install).
-
-2. **Test your Maude installation** by running the following command (WSL or Linux):
-```bash
-maude
-```
-
-It should return the following (Version 3.5 or higher):
-
-```text
-❯ maude
-                     \||||||||||||||||||/
-                   --- Welcome to Maude ---
-                     /||||||||||||||||||\
-             Maude 3.5 built: Sep 25 2024 12:00:00
-             Copyright 1997-2024 SRI International
-                   Sun Mar 30 10:11:50 2025
-```
-
-You can use **q** to exit maude.
+See [requirements.md](./REQUIREMENTS.md).
 
 ## Overview
 
@@ -188,4 +151,27 @@ Executable file for **itemis CREATE** available [here](./broker/use-case/images/
 ![Image of the SC model in the use case](./broker/use-case/images/broker-crossing-manager.png)
 
 Executable file for **itemis CREATE** available [here](./broker/use-case/images/barrier-system-crossing-manager.ysc).
+
+# Additional information
+
+## Citation
+
+Citation of the artifacts is described in [AUTHORS.md](./AUTHORS.md).
+
+## Comparison to other approaches (preliminary work of the authors)
+
+To show how our work (classified as coordination framework) differs from existing approaches such as ADLs, coordination languages, and co-simulation approaches, we created the following overview:
+
+![Coordination overview](./coordination-overview.svg)
+
+We can see in the overview that shows the abstraction levels that most approaches operate on the model or execution level, while our approach operates on the language level.
+Our approach operates on the language level to coordinate **heterogeneous** systems. For example, approaches on the model level require that each part of a system must be given in the chosen modeling language.
+For example, ADLs often use process algebras, which would require translating the models in our example into the chosen process algebra.
+
+## Feature model
+The following image shows a feature model to compare coordination approaches, such as ADLs, coordination languages, coordination frameworks (like this publication) and even co-simulation approaches.
+Especially, the component languages part in the bottom right shows the differentiation between homogeneous/heterogeneous. For example, ADLs have homogeneous components, while our approach allows heterogeneous modeling languages.
+![Featuer model to compare coordination approaches](./feature-model.svg)
+
+The feature model is currently unpublished, so we did not explain all details or describe our methodology.
 
