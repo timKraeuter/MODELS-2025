@@ -1,4 +1,7 @@
-# Artifacts: Maude Implementation
+This repository contains the **artifacts** for our paper to be published at the [28th International Conference on Model Driven Engineering Languages and Systems (MODELS)](https://2025.models-conf.com/).
+The accepted paper can be found [here](./paper.pdf) (published version will be linked later).
+
+# Artifacts: Maude Implementation of our approach (section V)
 
 The implementation of our approach in Maude and its application to the use case is described in these artifacts.
 
@@ -139,20 +142,26 @@ Make sure to have the most-recent Maude version installed (we used **Maude 3.5**
 A more detailed breakdown of the use case implementation and verification is given [here](./broker/use-case/README.md).
 
 ### CPN model
-CPN model. See executable source of the model for **CPN Tools** [here](./cpn/examples/source/sensor-system.cpn).
+
+The executable file of the model for **CPN Tools** is available [here](./cpn/examples/source/sensor-system.cpn).
+However, it is not necessary for the demonstration of our approach to install anything besides Maude.
+We used the tool for prototyping and validation. Follow the installation instructions [here](https://cpntools.org/2018/01/16/faq/) if you want to play around with the CPN model.
 ![Image of the CPN model in the use case](./cpn/examples/source/sensor-system.svg)
 
 ### Barrier System SC model.
 
 ![Image of the SC model in the use case](./broker/use-case/images/broker-barrier-system.png)
 
-Executable file for **itemis CREATE** available [here](./broker/use-case/images/barrier-system-crossing-manager.ysc).
+The executable file for **itemis CREATE** is available [here](./broker/use-case/images/barrier-system-crossing-manager.ysc).
+However, it is not necessary for the demonstration of our approach to install anything besides Maude.
+We used the tool for prototyping and validation.
+Itemis CREATE is [free for educational purposes](https://www.itemis.com/en/products/itemis-create/licenses/#academic-academic-license) and can be installed following [these instructions](https://www.itemis.com/en/products/itemis-create/documentation/user-guide/inst_installing_yakindu_statechart_tools) to play around with the state machine.
 
 ### Crossing Manager SC model.
 
 ![Image of the SC model in the use case](./broker/use-case/images/broker-crossing-manager.png)
 
-Executable file for **itemis CREATE** available [here](./broker/use-case/images/barrier-system-crossing-manager.ysc).
+The executable file for **itemis CREATE** is available [here](./broker/use-case/images/barrier-system-crossing-manager.ysc).
 
 # Additional information
 
@@ -175,5 +184,5 @@ The following image shows a feature model to compare coordination approaches, su
 Especially, the component languages part in the bottom right shows the differentiation between homogeneous/heterogeneous. For example, ADLs have homogeneous components, while our approach allows heterogeneous modeling languages.
 ![Featuer model to compare coordination approaches](./feature-model.svg)
 
-The feature model is currently unpublished, so we did not explain all details or describe our methodology.
+The feature model is still work in progress, so we do not explain all details or describe our methodology.
 
