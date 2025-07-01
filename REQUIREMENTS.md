@@ -1,4 +1,4 @@
-No requirements to execute the use case described in the paper besides a functioning maude installation:
+There are no requirements to execute the use case described in the paper besides a functioning maude installation:
 
 1. **Install Maude** 3.5 or higher according to the [installation instructions](https://maude.cs.illinois.edu/wiki/Maude_download_and_installation).
    To run Maude on Windows, we recommend the [Windows Subsystem for Linux (WSL)](https://learn.microsoft.com/en-us/windows/wsl/install).
