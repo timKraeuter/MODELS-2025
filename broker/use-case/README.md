@@ -5,7 +5,15 @@ It goes beyond the properties discussed in the paper, see verification section b
 
 ## Description
 - **cpn:** Defines the CPN model from the paper in Maude.
+  - The Maude file contains a list of CPN models consisting of **places**, **transitions**, and **arcs**.
+  - In addition, we define an **instance of the CPN model** that provides its initial marking.
+  - One can change this file to customize the CPN model or add additional CPNs for a different scenario.
 - **statechart:** Defines the state chart models from the paper in Maude.
+  - The Maude file contains a list of state charts consisting of **states** and **transitions**.
+  - In addition, we define **instances of the state chart models** that provides their initial states.
+  - One can change this file to customize the state chart models or add additional state charts for a different scenario.
+- **broker.maude:** Defines the bindings of the broker described in the paper together with the atomic propositions used for model checking.
+One can change this file to add additional propositions or bindings to integrate heterogeneous models.
 - **images:** Contains the images of each model and metamodels for each language.
 
 ##  Verification

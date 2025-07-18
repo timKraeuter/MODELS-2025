@@ -167,6 +167,9 @@ The executable file for **itemis CREATE** is available [here](./broker/use-case/
 
 # Additional information
 
+## Customization
+To adapt the artifacts to your needs, you can check [./broker/use-case/README.md](./broker/use-case/README.md) for additional information as well as the description of the implementation provided in the paper.
+
 ## Citation
 
 Citation of the artifacts is described in [AUTHORS.md](./AUTHORS.md).
