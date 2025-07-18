@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15784979.svg)](https://doi.org/10.5281/zenodo.15784978)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15784978.svg)](https://doi.org/10.5281/zenodo.15784978)
 
 This repository contains the **artifacts** for our paper to be published at the [28th International Conference on Model Driven Engineering Languages and Systems (MODELS)](https://2025.models-conf.com/).
 The accepted paper can be found [here](./paper.pdf) (published version will be linked later).
