@@ -154,7 +154,7 @@ We used the tool for prototyping and validation. Follow the installation instruc
 
 ![Image of the SC model in the use case](./broker/use-case/images/broker-barrier-system.png)
 
-The executable file for **itemis CREATE** is available [here](./broker/use-case/images/barrier-system-crossing-manager.ysc).
+The executable file for **itemis CREATE** is available [here](./broker/use-case/images/barrier-system-crossing-manager.ysc) (together with the crossing manager).
 However, it is not necessary for the demonstration of our approach to install anything besides Maude.
 We used the tool for prototyping and validation.
 Itemis CREATE is [free for educational purposes](https://www.itemis.com/en/products/itemis-create/licenses/#academic-academic-license) and can be installed following [these instructions](https://www.itemis.com/en/products/itemis-create/documentation/user-guide/inst_installing_yakindu_statechart_tools) to play around with the state machine.
@@ -163,7 +163,7 @@ Itemis CREATE is [free for educational purposes](https://www.itemis.com/en/produ
 
 ![Image of the SC model in the use case](./broker/use-case/images/broker-crossing-manager.png)
 
-The executable file for **itemis CREATE** is available [here](./broker/use-case/images/barrier-system-crossing-manager.ysc).
+The executable file for **itemis CREATE** is available [here](./broker/use-case/images/barrier-system-crossing-manager.ysc) (together with the barrier system).
 
 # Additional information
 
